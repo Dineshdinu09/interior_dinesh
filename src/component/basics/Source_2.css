@@ -1,0 +1,152 @@
+.S2_page2 {
+    /* border: 2px solid red; */
+    display: flex;
+    margin: auto;
+}
+
+.S2_left {
+    height: 900px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.S2_left ul {
+    /* border: 2px solid blue; */
+    padding: 33px 0;
+    width: 230px;
+}
+
+.S2_left ul li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    color: #333333;
+}
+
+.S2_left ul li:hover {
+    background: #EDF1F7;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: -3px 0 #57C2A7;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cards {
+    /* margin: 0 auto; */
+    /* max-width: 1200px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: Poppins;
+    background: #E5E5E5;
+    padding: 20px;
+}
+
+.S2_card {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: white;
+}
+
+.card_image {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    /* padding: 15px; */
+}
+
+.content p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    color: #35AC8D;
+    font-size: 12px;
+}
+@media only screen and (max-width: 900px){
+    .S2_left{
+        display: none;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content p{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .dropDown{
+        /* border:2px solid red; */
+       background:#E5E5E5;
+    }
+    .select{
+        padding: 12px 12px;
+        margin: 25px auto 25px 20px;
+        
+        border: 1px solid #dddddd;
+        cursor: pointer;
+        border-radius: 2px;
+        text-align: center;
+        font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+    }
+    .select:focus,
+    .select:hover{
+        outline: none;
+
+    }
+   .select option{
+      background: #ffffff;
+   }
+}
+@media only screen and (min-width: 900px){
+    .select{
+        display: none;
+        
+    }
+   
+}

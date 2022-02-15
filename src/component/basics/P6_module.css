@@ -1,0 +1,8 @@
+.p_6{
+    display: none;
+}
+@media screen and (max-device-width: 960px){
+    .p_6{
+        display: block;
+    }
+}

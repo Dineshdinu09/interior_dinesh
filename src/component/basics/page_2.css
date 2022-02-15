@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page2 {
+    background: #1A3D34;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.page2 h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    padding-top: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.flexbox {
+    width: 1150px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    /* border: 2px solid red; */
+}
+
+.card {
+    width: 450px;
+    height: 120px;
+    display: inline-flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 30px 30px;
+    background: #0b3128;
+    cursor: pointer;
+}
+
+.card:hover {
+    width: 450px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: 30px 30px;
+    background: #081f19;
+    box-shadow: -2px 0 #57C2A7;
+    filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
+}
+
+.card .incard {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.incard h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    width: 260px;
+    height: 26px;
+    margin: 20px 0 5px 35px;
+    text-align: left;
+}
+
+.incard p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    width: 318px;
+    height: 40px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    letter-spacing: 0.08em;
+    margin: 0 0 0 35px;
+    text-align: left;
+}
+
+
+/* ------------------media queries----------------------- */
+
+@media only screen and (max-width: 1276px) {
+    .grid {
+        display: flex;
+    }
+    .column1 {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .page2 {
+        background: #1A3D34;
+        width: fit-content;
+        height: 100%;
+        margin: auto;
+    }
+    .flexbox {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: table;
+        text-align: center;
+        padding: 50px;
+        /* border: 2px solid red; */
+    }
+    .card {
+        width: 100%;
+        height: 120px;
+        /* display: inline-flex; /
+        / flex-direction: row; */
+        box-sizing: border-box;
+        margin: 20px 0 0 0;
+        background: #0b3128;
+        cursor: pointer;
+        padding: 2px;
+    }
+    .card:hover {
+        width: 100%;
+        height: 120px;
+        box-sizing: border-box;
+        margin: 20px 0 0 0;
+        background: #081f19;
+        box-shadow: -2px 0 #57C2A7;
+        filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
+    }
+    .card .incard {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .card img {
+        width: 50px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .incard h3 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+        letter-spacing: 0.05em;
+        width: inherit;
+        height: 26px;
+        margin: 20px 0 5px 35px;
+        text-align: left;
+    }
+    .incard p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 19px;
+        width: inherit;
+        height: 40px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        letter-spacing: 0.08em;
+        margin: 0 0 0 35px;
+        text-align: left;
+    }
+}
+
+
+/* ---------mobile------- */
+
+@media only screen and (max-width: 420px) {
+    .page2 h2 {
+        font-size: 35px;
+    }
+    .card img {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .incard h3 {
+        font-size: 12px;
+        margin: 5px 0 5px 22px;
+    }
+    .incard p {
+        font-size: 9px;
+        margin: 0 0 0 22px;
+    }
+    .card {
+        height: 92px;
+    }
+    .card:hover {
+        height: 92px;
+    }
+}

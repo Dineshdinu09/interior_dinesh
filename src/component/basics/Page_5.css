@@ -1,0 +1,298 @@
+.container {
+    background: #1A3D34;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 137px;
+}
+
+
+    .H_1 { 
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.container .rectangle {
+    max-width: 979px;
+    height: fit-content;
+    background: #1A3D34;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    margin: 40px auto auto auto;
+    padding: 61px 90px 61px 114px;
+    /* border: 2px solid red; */
+}
+
+.rectangle2 {
+    width: 100%;
+    height: fit-content;
+    background: #1A3D34;
+    padding-left: 20px;
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.frame {
+    width: 210px;
+    height: 330px;
+    background: #FFFFFF;
+    margin-top: 15px;
+    margin-left: -16px;
+}
+
+.framert {
+    max-width: 640px;
+    height: auto;
+    /* border: 2px solid red; */
+    padding-left: 35px;
+}
+
+.photo {
+    width: 99%;
+    height: 256px;
+}
+
+.name h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1A3D34;
+    margin-top: -10px;
+}
+
+.des p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: -10px;
+    color: #1A3D34;
+}
+
+.rectanglebg {
+    width: 175px;
+    height: 361px;
+    background: #57C2A7;
+    border-radius: 20px;
+}
+
+.rectangle3 {
+    width: 50%;
+    height: 1%;
+    background: #57C2A7;
+    margin-top: 50px;
+    margin-left: -16px;
+}
+
+.rthead h1 {
+    font-family: Playfair Display;
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.rtp p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* margin-top: 0px; */
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FDFDFD;
+    opacity: 0.8;
+    max-width: 500px
+}
+
+.quote-left {
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    width: 36px;
+    height: 36px;
+    /* border: 2px solid red; */
+}
+
+.quote-right {
+    width: 36px;
+    height: 36px;
+    float: right;
+    /* border: 2px solid yellow; */
+}
+
+@media only screen and (max-width: 1100px) {
+    .rectangle2 {
+        height: 309px;
+        background: #1A3D34;
+        display: flex;
+        padding: 0px 20px 10px 20px;
+    }
+    .container .rectangle {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .rectangle2 {
+        display: flex;
+        flex-direction: column-reverse;
+        /* padding-right: 20px; */
+        box-shadow: 0px 0px 30px rgb(0 0 0 / 50%);
+    }
+    .frame {
+        display: flex;
+        background: transparent;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 20px 10px 20px;
+    }
+    .rectanglebg {
+        background: transparent;
+        width: fit-content;
+        height: fit-content;
+    }
+    .container .rectangle {
+        padding: 0;
+    }
+    .rthead h1 {
+        font-size: 30px;
+        margin-left: 0px;
+        position: relative;
+    }
+    .rthead h1::after {
+        content: "";
+        border: 2px solid #57C2A7;
+        position: absolute;
+        width: 225px;
+        bottom: 0%;
+    }
+    .photo {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        border: 2px solid white;
+        object-fit: cover;
+    }
+    #namemain {
+        margin-left: 20px;
+    }
+    .name h1 {
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .des p {
+        color: white;
+        margin-top: 0px;
+        text-align: left;
+    }
+    .rtp p {
+        max-width: 600px;
+        font-size: 14px;
+        display: inherit;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .framert {
+        padding-left: 0px;
+    }
+    .quote-left {
+        margin-left: 0px;
+        width: fit-content;
+        height: fit-content;
+        /* border: 2px solid red; */
+    }
+    .quote-left img {
+        width: 25px;
+        height: 25px;
+    }
+    .quote-right {
+        width: fit-content;
+        height: fit-content;
+        float: right;
+        /* border: 2px solid red; */
+    }
+    .quote-right img {
+        width: 25px;
+        height: 25px;
+    }
+    .rectangle3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .H_1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .rtp p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .H_1 {
+        font-size: 32px;
+    }
+    .rectangle2 {
+        height: 324px;
+        border-radius: 13px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   .H_1 {
+        font-size: 28px;
+    }
+    .rthead h1 {
+        font-size: 25px;
+    }
+    .rthead h1::after {
+        width: 186px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .rectangle2 {
+        height: 330px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .rthead h1::after {
+        width: 186px;
+    }
+}
+
+@media only screen and (max-width: 386px) {
+    .rtp p {
+        line-height: 20px;
+        margin-top: 10px;
+    }
+}

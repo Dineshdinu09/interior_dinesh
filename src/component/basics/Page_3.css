@@ -1,0 +1,199 @@
+.page3 {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.page3 h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    margin: 60px;
+    text-align: center;
+    color: #1A3D34;
+}
+
+.bblock {
+    margin: auto;
+    padding: 0px 40px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    margin: auto auto 100px auto;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.block:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.left {
+    /* margin-left: 25px; */
+    margin: 0 20px;
+}
+
+.Mask {
+    width: 522px;
+    height: 344px;
+    margin: 30px;
+    box-shadow: -25px 25px #1A3D34;
+}
+
+.block:nth-child(2) .right .Mask {
+    box-shadow: 25px 25px #1A3D34;
+}
+
+.page3 .left h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 64px;
+    /* margin: 100px 0 0 auto; */
+    /* padding: 0 80px 20px 0; */
+    color: #1A3D34;
+}
+
+.left div {
+    /* border: 2px solid red; */
+    margin-right: 20px;
+}
+
+.page3 .left p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    max-width: 520px;
+    /* padding-right: 10px; */
+    color: #1A3D34;
+    margin: 15px auto;
+}
+
+.button3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    /* position: absolute; */
+    background: #1A3D34;
+    margin: 40px 0 0 0px;
+    cursor: pointer;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #DDDDDD;
+    font-size: 16px;
+}
+
+.button3_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    /* position: absolute; */
+    border: none;
+    background: #1A3D34;
+    margin: 40px 0 0 0;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #DDDDDD;
+    font-size: 16px;
+}
+
+.rtarw2 {
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 1215px) {
+    .block {
+        /* width: fit-content; */
+        display: flex;
+        flex-direction: column-reverse;
+        /* border: 2px solid blue; */
+        margin: auto auto 100px auto;
+    }
+    .Mask {
+        width: inherit;
+        box-shadow: none;
+    }
+    .block:nth-child(2) .right .Mask {
+        box-shadow: none;
+    }
+    .block:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .button3,
+    .button3_2 {
+        /* transform: translate(90%, -20%); */
+        margin: 40px auto 0 auto;
+        padding: 8px 18px;
+    }
+    .page3 .left h3 {
+        margin: auto;
+        text-align: center;
+    }
+    .page3 .left p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Mask {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .Mask {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        box-shadow: none;
+    }
+}
+
+
+/* @media only screen and (max-width: 570px) {
+    .Mask {
+        margin: 20px;
+    }
+} */
+
+@media only screen and (max-width: 440px) {
+    .page3 h2 {
+        font-size: 35px;
+    }
+    .button3,
+    .button3_2 {
+        margin: 20px auto 0 auto;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .page3 .left h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .page3 .left p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
