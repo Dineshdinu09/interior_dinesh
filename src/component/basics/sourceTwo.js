@@ -41,7 +41,7 @@ const SourceTwo = () => {
         <div className="cards">
             <div className="S2_card">
 
-                <img src="p2_assets/img1.png" className="card_image"/>
+                <img src="p2_assets/img1.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Rome 3 Seater Sofa Green</h1>
@@ -59,7 +59,7 @@ const SourceTwo = () => {
             </div>
             <div className="S2_card">
 
-                <img src="p2_assets/img2.png" className="card_image"/>
+                <img src="p2_assets/img2.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Studio Helix Teal Cushion Sofa</h1>
