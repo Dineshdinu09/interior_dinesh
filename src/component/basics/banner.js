@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../basics/assets/logo.png'
 import  '../basics/banner.css';
+import { Link } from 'react-router-dom'
+
 
 
 const Banner = () => {
@@ -10,7 +12,7 @@ const Banner = () => {
             <img src={logo} className="logo" alt='img'/>
             <ul className="nav-links">
                 <li>SERVICES</li>
-                <li><a href='/Products'> PRODUCTS</a></li>
+                <li><Link to="/Products">PRODUCTS</Link></li>
                 <li><a href='/Work'>WORK</a></li>
                 <button type="button" className="button1">GET QUOTE</button>
             </ul>

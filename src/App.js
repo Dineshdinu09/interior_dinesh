@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, Link } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Furniture from './Furniture'
 import Main from './Main'
 
@@ -9,7 +9,7 @@ import Work from './Work'
 const App = () => {
   return (
     <>
-    <Link to="/Products">products</Link>
+
       <Routes>
         
         <Route exact path='/' element={<Main/>} />
