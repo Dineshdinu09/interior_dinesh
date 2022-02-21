@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  '../basics/Source_2.css';
+import  '../basics/sourceTwo.css';
 const Source_2 = () => {
   return <div>
         <div className='dropDown'>
@@ -26,7 +26,7 @@ const Source_2 = () => {
         <div className="S2_left">
             <ul>
                 <li>kitchen accessories</li>
-                <li>furniture</li>
+                <li> <a href='/Furniture'>furniture</a></li>
                 <li>art</li>
                 <li>furnishings</li>
                 <li>lighting</li>

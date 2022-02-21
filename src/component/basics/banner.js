@@ -11,7 +11,7 @@ const Banner = () => {
             <ul className="nav-links">
                 <li>SERVICES</li>
                 <li><a href='/Products'> PRODUCTS</a></li>
-                <li>WORK</li>
+                <li><a href='/Work'>WORK</a></li>
                 <button type="button" className="button1">GET QUOTE</button>
             </ul>
         </div>

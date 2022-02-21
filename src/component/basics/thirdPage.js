@@ -1,5 +1,5 @@
 import React from 'react';
-import  '../basics/Page_3.css';
+import  '../basics/thirdPage.css';
 
 const page_3 = () => {
   return <div>

@@ -1,0 +1,45 @@
+.Cardsdet2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: Poppins;
+    background: #E5E5E5;
+    padding: 0 120px 120px 120px;
+}
+#detp2h2{
+    /* border: 2px solid red; */
+    background: #E5E5E5;
+    text-align: center;
+    padding: 50px 0;
+}
+#detp2h2 h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #222222;
+}
+@media only screen and (max-width: 900px){
+    .Cardsdet2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 900px){
+    .S2_CARD2{
+        display: none;
+    }
+}
+@media only screen and (max-width: 590px){
+    .Cardsdet2{
+        padding: 0 80px 140px 80px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .Cardsdet2{
+        padding: 0 50px 100px 50px;
+    }
+}@media only screen and (max-width: 430px){
+    .Cardsdet2{
+        padding: 0 20px 70px 20px;
+    }
+}

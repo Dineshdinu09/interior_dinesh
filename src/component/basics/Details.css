@@ -1,0 +1,190 @@
+.DetailsPage{
+    display: grid;
+    height: 100%;
+    padding: 0 20px;
+    gap: 20px;
+    margin: auto 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2.5fr;
+    grid-template-rows: 0.4fr 0.2fr 2fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "main main main main main"
+    "img1 img1 img1 img1 det"
+    "img2 img3 img4 img5 det";
+    
+}
+nav{
+   
+    grid-area: nav;
+}
+main{
+
+    grid-area: main;
+
+}
+.image_1{
+
+grid-area: img1;
+}
+
+.cardImagep3{
+  
+    
+width: 100%;
+height: 100%;
+border: 1px solid #f1f1f2;
+padding: 15px;
+box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
+
+}
+.cardImagep4{
+   height:fit-content;
+   width: 100%;
+
+    
+   
+
+}
+.image_2{
+
+    grid-area: img2;
+}
+.image_3{
+
+    grid-area: img3;
+}
+.image_4{
+
+    grid-area: img4;
+}
+.image_5{
+
+    grid-area: img5;
+}
+.Det{
+
+    grid-area: det;
+}
+#mainDet{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 0;
+margin: 15px 5px;
+}
+.detailsBlock{
+    font-family: Poppins;
+font-style: normal;
+margin: 0 20px;
+
+}
+#deth1{
+    font-weight: 500;
+    min-width: 523px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #222222;
+}
+#detp1{
+    font-weight: normal;
+    min-width: 488px;
+    margin: 20px 0;
+font-size: 14px;
+line-height: 26px;
+color: #555555;
+}
+#deth2{
+    font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #888888;
+margin-top: 20px;
+}
+#deth3{
+    font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #333333;
+margin-top: 5px;
+}
+#detlist dd{
+    font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+color: #555555;
+padding: 5px;
+}
+#bold{
+    font-weight: 1000;
+    font-size: 16px;
+    color: #333333;
+}
+#deth3 #cost{
+    font-size: 21px;
+    font-weight: 1000;
+}
+#contactBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 24px;
+    /* position: relative; */
+    width: 190px;
+    height: 48px;
+  margin: 30px 0;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #DDDDDD;
+    font-size: 16px;
+    background: #1A3D34;
+    cursor: pointer;
+}
+#contactBtn1{
+    width: 118px;
+height: 26px;
+background: #2CBF99;
+padding: 4px 12px;
+color: #ffffff;
+margin: 4px 0;
+
+}
+#detlist{
+    margin-top: 20px;
+   
+}
+@media only screen and (max-width: 900px){
+    #mainDet{display: none;}
+    .image_2,.image_3,.image_4,.image_5{
+        display: none;
+    }
+    #deth1{
+        font-size: 16px;
+    }
+    #contactBtn1{
+        display: block;
+    }
+    #deth1,#detp1{
+        font-size: 12px;
+        min-width: auto;
+       
+    }
+    #deth2,#deth3{
+        font-size: 12px;
+    }
+    #detlist dd,#bold{
+font-size: 14px;
+    }
+    .DetailsPage{
+        grid-template-rows: 0.2fr 0fr 0.5fr 1fr;
+        grid-template-areas: 
+    "nav nav nav nav nav"
+    "main main main main main"
+    "img1 img1 img1 img1 img1"
+    "det det det det det";
+
+    }
+}

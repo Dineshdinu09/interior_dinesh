@@ -1,5 +1,5 @@
 import React from 'react';
-import  '../basics/Page_7.css';
+import  '../basics/pageSeven.css';
 const Page_7 = () => {
   return <div>
     <div className="last">

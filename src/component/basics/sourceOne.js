@@ -1,11 +1,11 @@
 import React from 'react';
-import  '../basics/Source_1.css';
+import  '../basics/sourceOne.css';
 
 const Source_1 = () => {
   return <div>
       <div className="main_2">
         <div className="navbar">
-            <img src="p2_assets/logo.png" className="logo"/>
+            <img src="p2_assets/logo.png" className="logo" alt='img'/>
             <ul className="nav-links">
                 <li>SERVICES</li>
                 <li>PRODUCTS</li>
