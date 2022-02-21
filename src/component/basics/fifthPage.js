@@ -14,11 +14,13 @@ const FifthPage = () => {
                         <div className="photoborder">
                             <img src="assets/photo.png" className="photo" alt='img'/>
                         </div>
+                        <div className='photoNamedec'>
                         <div className="name">
                             <h1>Shirley Lin</h1>
                         </div>
                         <div className="des">
                             <p>Bangalore</p>
+                        </div>
                         </div>
                     </div>
 

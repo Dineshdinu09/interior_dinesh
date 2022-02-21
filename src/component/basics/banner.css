@@ -37,7 +37,7 @@ ul {
     padding: 20px;
     margin: auto;
 } */
-.navbar{
+.main .navbar{
     display: flex;
     width: 90%;
     padding: 20px;
