@@ -9,10 +9,11 @@ import Work from './Work'
 const App = () => {
   return (
     <>
+    <a href='/Products'>producspage</a>
       <Routes>
         
         <Route exact path='/' element={<Main/>} />
-        <Route path='/products' element={<Products/>} />
+        <Route path='/Products' element={<Products/>} />
         <Route exact path='/Furniture' element={<Furniture/>} />
         <Route exact path='/Work' element={<Work/>} />
       </Routes>
