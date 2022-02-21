@@ -8,7 +8,7 @@ const SourceTwo = () => {
           <select className='select'>
               <option disabled selected>ALL PRODUCTS</option>
               <option value={'kitchen accessories'}>kitchen accessories</option>
-              <option value={'furniture'}>furniture</option>
+              <option value={'furniture'}><Link to='/Furniture'>furniture</Link></option>
               <option value={'art'}>art</option>
               <option value={'furnishings'}>furnishings</option>
               <option value={'lighting'}>lighting</option>
@@ -26,17 +26,17 @@ const SourceTwo = () => {
     
         <div className="S2_left">
             <ul>
-                <li>kitchen accessories</li>
+                <li><Link to='/Furniture'>kitchen accessories</Link></li>
                 <li> <Link to='/Furniture'>furniture</Link></li>
-                <li>art</li>
-                <li>furnishings</li>
-                <li>lighting</li>
-                <li>Decor accessories</li>
-                <li>wall coverings</li>
-                <li>security and safety</li>
-                <li>gardening</li>
-                <li>kids furniture</li>
-                <li>Stores&Selves</li>
+                <li><Link to='/Furniture'>art</Link></li>
+                <li><Link to='/Furniture'>furnishings</Link></li>
+                <li><Link to='/Furniture'>lighting</Link></li>
+                <li><Link to='/Furniture'>Decor accessories</Link></li>
+                <li><Link to='/Furniture'>wall coverings</Link></li>
+                <li><Link to='/Furniture'>security and safety</Link></li>
+                <li><Link to='/Furniture'>gardening</Link></li>
+                <li><Link to='/Furniture'>kids furniture</Link></li>
+                <li><Link to='/Furniture'>Stores&Selves</Link></li>
             </ul>
         </div>
         <div className="cards">
