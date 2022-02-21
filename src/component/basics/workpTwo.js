@@ -1,12 +1,12 @@
 import React from 'react'
 import  '../basics/workTwo.css';
 
-const Workp2 = () => {
+const WorkpTwo = () => {
   return (
 <div className='workGrids'>
    
   
-  {/* <div className='workNavbar2'>
+  <div className='workNavbar2'>
   <ul className='workNavul'>
   <li>Bedroom</li>
   <li>Modular Kitchen</li>
@@ -17,11 +17,11 @@ const Workp2 = () => {
   <li>Wardrobe</li>
   <li>Space Saving</li>
 </ul>
-  </div> */}
+  </div>
 
        <div className='workContainer'>
          <div className='workImage1'>
-         <img src='p4_assets/Frame495.png' className='workImg1'></img>
+         <img src='p4_assets/Frame495.png' className='workImg1' alt='img'></img>
          </div>
          
          <div className='workTitleh1'>
@@ -31,7 +31,7 @@ const Workp2 = () => {
          </div>
             <div className='workDesc1'>
             <div className='workCardimgQuote'>
-                 <img src='p4_assets/el_quote-right.png' className='imgQuote'></img>
+                 <img src='p4_assets/el_quote-right.png' className='imgQuote' alt='img'></img>
              </div>
              <div className='workCardpara'>
                     <p className='cardPara'>We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.</p>
@@ -42,7 +42,7 @@ const Workp2 = () => {
                    <p className='nameDetp'>Bangalore</p>
                  </div>
                  <div className='cardFooterContact'>
-                   <img src='p4_assets/carbon_phone-filled.png' className='contactImg'></img>
+                   <img src='p4_assets/carbon_phone-filled.png' className='contactImg' alt='img'></img>
                    <h3 className='footerContact'>CONTACT CUSTOMER</h3>
                  </div>
                  </div>
@@ -50,9 +50,9 @@ const Workp2 = () => {
             </div>
 
        </div>
-        {/* <div className='workContainer workContainer2'>
+        <div className='workContainer workContainer2'>
             <div className='workImage1'>
-                <img src='p4_assets/Frame495.png' className='workImg1'></img>
+                <img src='p4_assets/Frame495.png' className='workImg1' alt='img'></img>
             </div>
             <div className='workTitle1'>
                <div className='workTitleh1'> <h1>Customized Modular Kitchen Setup</h1></div>
@@ -63,7 +63,7 @@ const Workp2 = () => {
             </div>
             <div className='workDesc1'>
             <div className='workCardimgQuote'>
-                 <img src='p4_assets/el_quote-right.png' className='imgQuote'></img>
+                 <img src='p4_assets/el_quote-right.png' className='imgQuote' alt='img'></img>
              </div>
              <div className='workCardpara'>
                     <p className='cardPara'>We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.</p>
@@ -74,7 +74,7 @@ const Workp2 = () => {
                    <p className='nameDetp'>Bangalore</p>
                  </div>
                  <div className='cardFooterContact'>
-                   <img src='p4_assets/carbon_phone-filled.png' className='contactImg'></img>
+                   <img src='p4_assets/carbon_phone-filled.png' className='contactImg' alt='img'></img>
                    <h3 className='footerContact'>CONTACT CUSTOMER</h3>
                  </div>
               </div>
@@ -82,12 +82,12 @@ const Workp2 = () => {
               
         
             
-        </div> */}
+        </div>
 
     </div>
   )
 }
 
-export default Workp2
+export default WorkpTwo
 
 

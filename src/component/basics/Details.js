@@ -19,7 +19,7 @@ const Details = () => {
         </nav>
         <main> <p id='mainDet'>Products {">"} Furniture {">"} Mid-Century Living Minimal Sofa Grey </p></main>
         <div className='image_1'>
-        <img src="p3_assets/Frame 475.png" className="cardImagep3"/>
+        <img src="p3_assets/Frame 475.png" className="cardImagep3" alt='img'/>
         </div>
         <div className='Det'>
             <div className='detailsBlock'>
@@ -49,16 +49,16 @@ const Details = () => {
             </div>
         </div>
         <div className='image_2'>
-        <img src="p3_assets/Frame 476.png" className="cardImagep4"/>
+        <img src="p3_assets/Frame 476.png" className="cardImagep4" alt='img'/>
         </div>
         <div className='image_3'>
-        <img src="p3_assets/Frame 474.png" className="cardImagep4"/>
+        <img src="p3_assets/Frame 474.png" className="cardImagep4" alt='img'/>
         </div>
         <div className='image_4'>
-        <img src="p3_assets/Frame 477.png" className="cardImagep4"/>
+        <img src="p3_assets/Frame 477.png" className="cardImagep4" alt='img'/>
         </div>
         <div className='image_5'>
-        <img src="p3_assets/Frame 478.png" className="cardImagep4"/>
+        <img src="p3_assets/Frame 478.png" className="cardImagep4" alt='img'/>
         </div>
 
 

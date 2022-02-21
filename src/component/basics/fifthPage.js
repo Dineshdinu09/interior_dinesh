@@ -1,7 +1,7 @@
 import React from 'react';
 import  '../basics/fifthPage.css';
 
-const Page_5 = () => {
+const FifthPage = () => {
   return <div>
       <div className="container">
         <h1 className='H_1'>Listen from our Clients</h1>
@@ -12,7 +12,7 @@ const Page_5 = () => {
 
 
                         <div className="photoborder">
-                            <img src="assets/photo.png" className="photo"/>
+                            <img src="assets/photo.png" className="photo" alt='img'/>
                         </div>
                         <div className="name">
                             <h1>Shirley Lin</h1>
@@ -29,11 +29,11 @@ const Page_5 = () => {
                     <div className="rthead">
                         <h1>Excellent Choice</h1>
                     </div>
-                    <img src="assets/quote-left.svg" className="quote-left"/>
+                    <img src="assets/quote-left.svg" className="quote-left" alt='img'/>
                     <div className="rtp">
                         <p>We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.</p>
                     </div>
-                    <img src="assets/quote-right.svg" className="quote-right"/>
+                    <img src="assets/quote-right.svg" className="quote-right" alt='img'/>
 
                 </div>
 
@@ -46,4 +46,4 @@ const Page_5 = () => {
   </div>;
 };
 
-export default Page_5;
+export default FifthPage;

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../basics/detailspTwo.css'
 
-const Detailsp2 = () => {
+const DetailspTwo = () => {
   return (
     <>
     <div id='detp2h2'>
@@ -11,7 +11,7 @@ const Detailsp2 = () => {
       
             <div className="S2_card">
 
-                <img src="p2_assets/img1.png" className="card_image"/>
+                <img src="p2_assets/img1.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Rome 3 Seater Sofa Green</h1>
@@ -29,7 +29,7 @@ const Detailsp2 = () => {
             </div>
             <div className="S2_card">
 
-                <img src="p2_assets/img2.png" className="card_image"/>
+                <img src="p2_assets/img2.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Studio Helix Teal Cushion Sofa</h1>
@@ -47,7 +47,7 @@ const Detailsp2 = () => {
             </div>
             <div className="S2_card">
 
-                <img src="p2_assets/img3.png" className="card_image"/>
+                <img src="p2_assets/img3.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Studio Helix Teal Cushion Sofa</h1>
@@ -65,7 +65,7 @@ const Detailsp2 = () => {
             </div>
             <div className="S2_card S2_CARD2">
 
-<img src="p2_assets/img4.png" className="card_image"/>
+<img src="p2_assets/img4.png" className="card_image" alt='img'/>
 
 <div className="content">
     <h1>Studio Helix Teal Cushion Sofa</h1>
@@ -89,4 +89,4 @@ const Detailsp2 = () => {
   )
 }
 
-export default Detailsp2
+export default DetailspTwo

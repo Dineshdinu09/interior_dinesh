@@ -1,7 +1,7 @@
 import React from 'react';
 
 import  '../basics/sourceTwo.css';
-const Source_2 = () => {
+const SourceTwo = () => {
   return <div>
         <div className='dropDown'>
           <select className='select'>
@@ -77,7 +77,7 @@ const Source_2 = () => {
             </div>
             <div className="S2_card">
 
-                <img src="p2_assets/img3.png" className="card_image"/>
+                <img src="p2_assets/img3.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Studio Helix Teal Cushion Sofa</h1>
@@ -95,7 +95,7 @@ const Source_2 = () => {
             </div>
             <div className="S2_card">
 
-                <img src="p2_assets/img4.png" className="card_image"/>
+                <img src="p2_assets/img4.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Studio Helix Teal Cushion Sofa</h1>
@@ -113,7 +113,7 @@ const Source_2 = () => {
             </div>
             <div className="S2_card">
 
-                <img src="p2_assets/img5.png" className="card_image"/>
+                <img src="p2_assets/img5.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Studio Helix Teal Cushion Sofa</h1>
@@ -131,7 +131,7 @@ const Source_2 = () => {
             </div>
             <div className="S2_card">
 
-                <img src="p2_assets/img6.png" className="card_image"/>
+                <img src="p2_assets/img6.png" className="card_image" alt='img'/>
 
                 <div className="content">
                     <h1>Studio Helix Teal Cushion Sofa</h1>
@@ -152,4 +152,4 @@ const Source_2 = () => {
   </div>;
 };
 
-export default Source_2;
+export default SourceTwo;

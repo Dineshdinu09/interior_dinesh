@@ -2,7 +2,7 @@ import React from 'react'
 import  '../basics/workOne.css';
 
 
-const Workp1 = () => {
+const WorkpOne = () => {
   return (
     <header>
           <div className="workNavbar">
@@ -24,4 +24,4 @@ But Effective</h1>
   )
 }
 
-export default Workp1
+export default WorkpOne

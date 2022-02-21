@@ -1,6 +1,6 @@
 import React from 'react';
 import  '../basics/pageSeven.css';
-const Page_7 = () => {
+const PageSeven = () => {
   return <div>
     <div className="last">
         <div className="lastblock">
@@ -14,10 +14,10 @@ const Page_7 = () => {
                     Flat 501, Addressline 1<br/> Addressline 2, Chennai</h2>
             </div>
             <div id="footer_icons">
-                <img src="assets/bx_bxl-facebook.svg" className="smallicons2_sub"/>
-                <img src="assets/carbon_logo-instagram.svg" className="smallicons2_sub"/>
-                <img src="assets/bx_bxl-twitter.svg" className="smallicons2_sub"/>
-                <img src="assets/cib_pinterest-p.svg" className="smallicons2_sub"/>
+                <img alt='img' src="assets/bx_bxl-facebook.svg" className="smallicons2_sub"/>
+                <img alt='img' src="assets/carbon_logo-instagram.svg" className="smallicons2_sub"/>
+                <img alt='img' src="assets/bx_bxl-twitter.svg" className="smallicons2_sub"/>
+                <img alt='img' src="assets/cib_pinterest-p.svg" className="smallicons2_sub"/>
             </div>
             <h2 id="footer_h2">© 2020 Fidisys Technologies Private Limited</h2>
         </div>
@@ -25,4 +25,4 @@ const Page_7 = () => {
   </div>;
 };
 
-export default Page_7;
+export default PageSeven;

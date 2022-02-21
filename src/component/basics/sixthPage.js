@@ -1,7 +1,7 @@
 import React from 'react';
 import  '../basics/sixthPage.css';
 
-const Page_6 = () => {
+const SixthPage = () => {
   return <div>
       <div className="container2">
 
@@ -11,16 +11,16 @@ const Page_6 = () => {
     <div className="lblock">
         <h2>Contact Information</h2>
         <p className="p1"> Fill up the form and we will get back to you within 24 hours</p>
-        <p className="p2"> <img src="assets/carbon_phone-filled.svg" className="smallicons"/>+91 - 9876543210</p>
-        <p className="p3"><img src="assets/fluent_mail-28-filled.svg" className="smallicons"/>hello@fidisys.com</p>
-        <p className="p4"><img src="assets/fluent_location-12-filled.svg" className="smallicons"/>Flat 501, Addressline 1<br/> Addressline 2, Chennai</p>
+        <p className="p2"> <img alt='img' src="assets/carbon_phone-filled.svg" className="smallicons"/>+91 - 9876543210</p>
+        <p className="p3"><img alt='img' src="assets/fluent_mail-28-filled.svg" className="smallicons"/>hello@fidisys.com</p>
+        <p className="p4"><img alt='img' src="assets/fluent_location-12-filled.svg" className="smallicons"/>Flat 501, Addressline 1<br/> Addressline 2, Chennai</p>
 
         <div className="smallicons2">
 
-            <img src="assets/bx_bxl-facebook.svg" className="smallicons2_sub"/>
-            <img src="assets/carbon_logo-instagram.svg" className="smallicons2_sub"/>
-            <img src="assets/bx_bxl-twitter.svg" className="smallicons2_sub"/>
-            <img src="assets/cib_pinterest-p.svg" className="smallicons2_sub"/>
+            <img alt='img' src="assets/bx_bxl-facebook.svg" className="smallicons2_sub"/>
+            <img alt='img' src="assets/carbon_logo-instagram.svg" className="smallicons2_sub"/>
+            <img alt='img' src="assets/bx_bxl-twitter.svg" className="smallicons2_sub"/>
+            <img alt='img' src="assets/cib_pinterest-p.svg" className="smallicons2_sub"/>
         </div>
         <div className="arc"></div>
 
@@ -61,4 +61,4 @@ const Page_6 = () => {
   </div>;
 };
 
-export default Page_6;
+export default SixthPage;

@@ -7,7 +7,7 @@ const Banner = () => {
   return <div>
 <div className="main">
         <div className="navbar">
-            <img src={logo} className="logo"/>
+            <img src={logo} className="logo" alt='img'/>
             <ul className="nav-links">
                 <li>SERVICES</li>
                 <li><a href='/Products'> PRODUCTS</a></li>
@@ -17,7 +17,7 @@ const Banner = () => {
         </div>
         <div className="inbox">
             <h1>Interior Design <br/> & Decors</h1>
-            <button type="button" className="button2">Book Free Consultation  <img className="rtarw" src="assets/Arrow - Right.svg"/></button>
+            <button type="button" className="button2">Book Free Consultation  <img className="rtarw" src="assets/Arrow - Right.svg" alt='img'/></button>
         </div>
     </div>
     </div>

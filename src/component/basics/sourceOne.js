@@ -1,7 +1,7 @@
 import React from 'react';
 import  '../basics/sourceOne.css';
 
-const Source_1 = () => {
+const SourceOne = () => {
   return <div>
       <div className="main_2">
         <div className="navbar">
@@ -20,7 +20,7 @@ const Source_1 = () => {
             </div>
             <div className="rblock1">
                 <div className="rectanglebg_2">
-                    <img src="p2_assets/image 94.png" className="bg1"/>
+                    <img alt='img' src="p2_assets/image 94.png" className="bg1"/>
                 </div>
                 <div className="rectanglebg1"></div>
             </div>
@@ -29,4 +29,4 @@ const Source_1 = () => {
   </div>;
 };
 
-export default Source_1;
+export default SourceOne;
