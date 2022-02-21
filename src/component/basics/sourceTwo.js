@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import  '../basics/sourceTwo.css';
 const SourceTwo = () => {
@@ -26,7 +27,7 @@ const SourceTwo = () => {
         <div className="S2_left">
             <ul>
                 <li>kitchen accessories</li>
-                <li> <a href='/Furniture'>furniture</a></li>
+                <li> <Link to='/Furniture'>furniture</Link></li>
                 <li>art</li>
                 <li>furnishings</li>
                 <li>lighting</li>
