@@ -32,13 +32,13 @@ ul {
     height: 32px;
 }
 
-.nav-links {
+.navLinksone {
     display: flex;
     align-items: center;
     margin: 0 25px 0 auto;
 }
 
-.nav-links li {
+.navLinksone li {
     margin: 0 40px;
     font-family: Poppins;
     font-style: normal;
@@ -153,7 +153,7 @@ ul {
         display: block;
         padding: 0;
     }
-    .nav-links{
+    .navLinksone{
         display: none;
     }
 }

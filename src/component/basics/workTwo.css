@@ -1,8 +1,9 @@
 .workGrids{
     margin:  50px;
+    padding: 10px 10px;
 }
 .workGrids .workNavbar2 {
-    padding: 25px 35px;
+    padding: 50px 35px;
 }
 .workGrids .workNavbar2 .workNavul{
     list-style: none;
@@ -29,9 +30,7 @@ flex: none;
     
 }
  /* -------Container------- */
- .workGrids .twoBlocks{
-     padding: 60px 10px;
- }
+
  .workContainer{
      /* display: flex;
      padding: 20px; */
@@ -200,4 +199,30 @@ height: 20px;
      "h1 img"
      "card img";
      grid-column-gap: 0;
+}
+@media screen and (max-device-width: 1000px){
+    .workGrids .workNavbar2{
+        display: none;
+    }
+    .workGrids .workContainer{
+        height: fit-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr auto auto;
+    grid-template-areas: 
+    "h1"
+    "img"
+    "card";
+    }
+    .workGrids .workContainerTwo{
+        height: fit-content;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr auto auto;
+        grid-template-areas: 
+        "h1"
+        "img"
+        "card";
+    }
+    .workDesc1 .cardfooterBlock{
+        width: auto;
+    }
 }

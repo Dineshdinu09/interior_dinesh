@@ -96,7 +96,7 @@
     align-items: center;
 }
 
-button {
+#detBtn {
     padding: 5px;
     border: 1px solid #999999;
     box-sizing: border-box;
@@ -113,7 +113,7 @@ button {
     .content p{
         display: none;
     }
-    button{
+    #detBtn{
         display: none;
     }
     .dropDown{

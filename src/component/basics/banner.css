@@ -63,7 +63,16 @@ ul {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
+
 }
+.nav-links li #Link {
+    text-decoration: none;
+    color: #1A3D34;
+}
+.main .navbar .mobNav .mobList #Link{
+    text-decoration: none;
+    color: #1A3D34;
+} 
 
 .button1 {
     display: flex;
@@ -129,16 +138,58 @@ ul {
     /* width: 720px; */
     height: 160px;
 }
+.main .navbar .mobNav{
+    display: none;
+}
 @media only screen and (max-width: 1000px){
     .main h1{
         font-size: 65px;
     }
 }
+@media only screen and (max-width: 940px){
+    .main .navbar .mobNav{
+        display: block;
+    }
+    .main .navbar .mobNav .mobList{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: fit-content;
+        /* background: yellow; */
+        text-align: center;
+        background: #e8e8e8ab;
+        width: 100%;
+    }
+    .main .navbar .mobNav .btnNav{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+        border: none;
+}
+.main .navbar .mobNav .btnNav #fontAwe{
+    color: #1A3D34;
+    font-size: 30px;
+}
+    .main .navbar .mobNav .mobList li{
+        margin: 20px 0;
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #1A3D34;
 
-@media only screen and (max-width: 780px) {
+    }
     .nav-links {
         display: none;
     }
+    
+   
+}
+
+@media only screen and (max-width: 780px) {
+
     .main{
         height: 100vh;
         background-size: contain;
@@ -156,6 +207,9 @@ ul {
         width: 70%;
         font-size: 11px;
         height: 40px;
+        transition: all 0.3s ease;
+
+        cursor:pointer;
     }
 }
 @media only screen and (max-width: 473px){

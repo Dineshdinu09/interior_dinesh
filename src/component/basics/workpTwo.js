@@ -6,7 +6,9 @@ const WorkpTwo = () => {
 <div className='workGrids'>
    
   
-  <div className='workNavbar2'>
+
+
+<div className='workNavbar2'>
   <ul className='workNavul'>
   <li>Bedroom</li>
   <li>Modular Kitchen</li>
@@ -18,7 +20,6 @@ const WorkpTwo = () => {
   <li>Space Saving</li>
 </ul>
   </div>
-<div className='twoBlocks'>
        <div className='workContainer'>
          <div className='workImage1'>
          <img src='p4_assets/Frame494.png' className='workImg1' alt='img'></img>
@@ -87,7 +88,7 @@ const WorkpTwo = () => {
             </div>
 
        </div>
-       </div>
+       
         
 
     </div>

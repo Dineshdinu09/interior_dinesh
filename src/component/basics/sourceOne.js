@@ -7,7 +7,7 @@ const SourceOne = () => {
       <div className="main_2">
         <div className="navbar">
             <img src="p2_assets/logo.png" className="logo" alt='img'/>
-            <ul className="nav-links">
+            <ul className="navLinksone">
                 <li><Link to="/">SERVICES</Link></li>
                 <li><Link to="/Products">PRODUCTS</Link></li>
                 <li><Link to="/Work">WORK</Link></li>

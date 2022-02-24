@@ -54,7 +54,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button>VIEW DETAILS</button>
+                        <button id='detBtn'>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button>VIEW DETAILS</button>
+                        <button id='detBtn'>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button>VIEW DETAILS</button>
+                        <button id='detBtn'>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button>VIEW DETAILS</button>
+                        <button id='detBtn'>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button>VIEW DETAILS</button>
+                        <button id='detBtn'>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button>VIEW DETAILS</button>
+                        <button id='detBtn'>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
