@@ -15,6 +15,7 @@ const Banner = () => {
     setToggleMenu(!toggleMenu)
   }
   return <div>
+    
 <div className="main">
         <div className="navbar">
             <img src={logo} className="logo" alt='img'/>
