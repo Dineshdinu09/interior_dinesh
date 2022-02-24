@@ -8,7 +8,7 @@ import PageSeven from './component/basics/pageSeven';
 const Work = () => {
   return (
     <div>
-        {/* <WorkpOne/> */}
+        <WorkpOne/>
       
         <WorkpTwo/>
         <SixthPage/>
