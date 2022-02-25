@@ -206,6 +206,7 @@ height: 20px;
     }
     .workGrids .workContainer{
         height: fit-content;
+        margin-bottom: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr auto auto;
     grid-template-areas: 
@@ -224,5 +225,83 @@ height: 20px;
     }
     .workDesc1 .cardfooterBlock{
         width: auto;
+    }
+}
+@media screen and (max-device-width: 600px){
+    .workContainer  .workTitleh1 h1{
+        font-size: 18px;
+        line-height: 33px;
+}
+     .workContainer .workTitleh1 p{
+        font-size: 10.5418px;
+        line-height: 15px;        
+     }
+
+
+    .workContainer .workDesc1 .cardfooterBlock .workCardpara p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardNamedet .nameDeth2{
+        font-size: 16px;
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardNamedet .nameDetp{
+        font-size: 12px;
+    }
+    .workCardpara .cardPara{
+        margin: 0 0 10px 0;
+
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardFooterContact .footerContact{
+        font-size: 12px;
+    }
+}
+@media screen and (max-device-width: 450px){
+    .workContainer  .workTitleh1 h1{
+        font-size: 12px;
+        line-height: 15px;
+}
+     .workContainer .workTitleh1 p{
+        font-size: 8.5418px;
+        line-height: 12px;        
+     }
+
+    .workContainer .workDesc1 .cardfooterBlock .workCardpara p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardNamedet .nameDeth2{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardNamedet .nameDetp{
+        font-size: 10px;
+    }
+    .workCardpara .cardPara{
+        margin: 0 0 8px 0;
+
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardFooterContact .footerContact{
+        font-size: 10px;
+    }
+}
+@media screen and (max-device-width: 385px){
+    .workContainer .workDesc1 .cardfooterBlock .workCardpara p{
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardNamedet .nameDeth2{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardNamedet .nameDetp{
+        font-size: 7px;
+    }
+    .workCardpara .cardPara{
+        margin: 0 0 6px 0;
+
+    }
+    .workContainer .workDesc1 .cardfooterBlock .cardFooter .cardFooterContact .footerContact{
+        font-size: 7px;
     }
 }

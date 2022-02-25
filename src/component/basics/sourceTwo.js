@@ -26,17 +26,17 @@ const SourceTwo = () => {
     
         <div className="S2_left">
             <ul>
-                <li><Link to='/Furniture'>kitchen accessories</Link></li>
-                <li> <Link to='/Furniture'>furniture</Link></li>
-                <li><Link to='/Furniture'>art</Link></li>
-                <li><Link to='/Furniture'>furnishings</Link></li>
-                <li><Link to='/Furniture'>lighting</Link></li>
-                <li><Link to='/Furniture'>Decor accessories</Link></li>
-                <li><Link to='/Furniture'>wall coverings</Link></li>
-                <li><Link to='/Furniture'>security and safety</Link></li>
-                <li><Link to='/Furniture'>gardening</Link></li>
-                <li><Link to='/Furniture'>kids furniture</Link></li>
-                <li><Link to='/Furniture'>Stores&Selves</Link></li>
+                <li><Link to='/Furniture' id='listDet'>kitchen accessories</Link></li>
+                <li> <Link to='/Furniture'id='listDet'>furniture</Link></li>
+                <li><Link to='/Furniture'id='listDet'>art</Link></li>
+                <li><Link to='/Furniture'id='listDet'>furnishings</Link></li>
+                <li><Link to='/Furniture'id='listDet'>lighting</Link></li>
+                <li><Link to='/Furniture'id='listDet'>Decor accessories</Link></li>
+                <li><Link to='/Furniture'id='listDet'>wall coverings</Link></li>
+                <li><Link to='/Furniture'id='listDet'>security and safety</Link></li>
+                <li><Link to='/Furniture'id='listDet'>gardening</Link></li>
+                <li><Link to='/Furniture'id='listDet'>kids furniture</Link></li>
+                <li><Link to='/Furniture'id='listDet'>Stores&Selves</Link></li>
             </ul>
         </div>
         <div className="cards">

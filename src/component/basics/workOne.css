@@ -91,6 +91,13 @@ opacity: 0.7;
 .workTitile{
     padding: 80px;
 }
+header .workNavbar .mobNav{
+    display: none;
+}
+header .workNavbar .workNavlinks #workLinksnav{
+    text-decoration: none;
+    color: white;
+}
 @media only screen and (max-width: 1200px){
     header{
         background-size: 670px;
@@ -130,6 +137,47 @@ opacity: 0.7;
     }
 }
 @media only screen and (max-width: 960px){
+    header .workNavbar .mobNav{
+        display: block;
+    }
+    header .workNavbar .mobNav .mobList{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: fit-content;
+        /* background: yellow; */
+        text-align: center;
+        background: #e8e8e8ab;
+        width: 100%;
+    }
+    header .workNavbar .mobNav .btnNav{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 22px;
+        border: none;
+}
+header .workNavbar .mobNav .btnNav #fontAwe{
+    /* color: white; */
+    background-color: transparent;
+    background: transparent;
+    font-size: 30px;
+}
+
+header .workNavbar .mobNav .mobList li{
+    margin: 20px 0;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #1A3D34;
+
+}
+header .workNavbar .mobNav .mobList #Link{
+    text-decoration: none;
+    color: #1A3D34;
+} 
     header{
         height: 100vh;
     }

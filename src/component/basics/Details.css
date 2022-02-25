@@ -17,6 +17,44 @@ nav{
    
     grid-area: nav;
 }
+.DetailsPage nav .mobNav{
+    display: none;
+}
+/* NAVBAR */
+.DetailsPage .navbarDet{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.DetailsPage .navinksDet {
+    display: flex;
+    align-items: center;
+    margin: 0 25px 0 auto;
+}
+
+.DetailsPage .navinksDet li {
+    margin: 0 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+
+}
+.DetailsPage .navinksDet li #detLinktwo{
+    text-decoration: none;
+    color: #1A3D34;
+
+
+}
 main{
 
     grid-area: main;
@@ -144,12 +182,13 @@ padding: 5px;
     cursor: pointer;
 }
 #contactBtn1{
-    width: 118px;
+    /* width: 118px; */
 height: 26px;
 background: #2CBF99;
 padding: 4px 12px;
 color: #ffffff;
 margin: 4px 0;
+border: none;
 
 }
 #detlist{
@@ -157,6 +196,53 @@ margin: 4px 0;
    
 }
 @media only screen and (max-width: 900px){
+
+   .DetailsPage nav .mobNav{
+        display: block;
+    }
+    .DetailsPage nav .mobNav .mobList{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: fit-content;
+        /* background: yellow; */
+        text-align: center;
+        background: #e8e8e8ab;
+        width: 100%;
+    }
+    .DetailsPage nav .mobNav .btnNav{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 22px;
+        border: none;
+}
+.DetailsPage nav .mobNav .btnNav #fontAwe{
+    /* color: white; */
+    background-color: transparent;
+    background: transparent;
+    font-size: 30px;
+}
+.DetailsPage nav  .mobNav .mobList li{
+    margin: 20px 0;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #1A3D34;
+
+}
+.DetailsPage nav .mobNav .mobList #Link{
+    text-decoration: none;
+    color: #1A3D34;
+} 
+
+
+    .DetailsPage .navinksDet{
+        display: none;
+    }
+
     #mainDet{display: none;}
     .image_2,.image_3,.image_4,.image_5{
         display: none;

@@ -103,6 +103,10 @@
     color: #35AC8D;
     font-size: 12px;
 }
+.S2_page2 .S2_left ul #listDet{
+    text-decoration: none;
+    color: #222222;
+}
 @media only screen and (max-width: 900px){
     .S2_left{
         display: none;
@@ -149,4 +153,21 @@ line-height: 18px;
         
     }
    
+}
+
+@media only screen and (max-width: 450px){
+    .content h1{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .content{
+        padding: 10px 10px 0 10px;
+    }
+    .footer{
+        padding: 10px 10px 0 10px;
+        font-size: 12px;
+    }
+    .select{
+        font-size: 10px;
+    }
 }
