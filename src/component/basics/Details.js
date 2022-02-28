@@ -21,12 +21,9 @@ const Details = () => {
                       <li><Link to="/" id='Link'>SERVICES</Link></li>
                       <li><Link to="/Products" id='Link'>PRODUCTS</Link></li>
                       <li><Link to='/Work' id='Link'>WORK</Link></li>
-                      <li>GET QUOTE</li>
+                      <li id='Link'>GET QUOTE</li>
                   </ul>
               )}
-               
-              
-           
                <button className="btnNav" onClick={toggleNav}><FontAwesomeIcon icon={faAlignJustify} id='fontAwe' /></button>
             </div>
         <div className="navbarDet">

@@ -144,10 +144,11 @@ header .workNavbar .workNavlinks #workLinksnav{
         position: fixed;
         top: 60px;
         left: 0;
-        height: fit-content;
-        /* background: yellow; */
-        text-align: center;
-        background: #e8e8e8ab;
+        height: 100vh;
+
+        background: #141E1F;
+        padding: 100px 0 0 40px;
+         z-index: 10;
         width: 100%;
     }
     header .workNavbar .mobNav .btnNav{
@@ -176,7 +177,13 @@ color: #1A3D34;
 }
 header .workNavbar .mobNav .mobList #Link{
     text-decoration: none;
-    color: #1A3D34;
+    color: white;
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
 } 
     header{
         height: 100vh;

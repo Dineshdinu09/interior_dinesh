@@ -8,7 +8,7 @@ const SourceTwo = () => {
           <select className='select'>
               <option disabled selected>ALL PRODUCTS</option>
               <option value={'kitchen accessories'}>kitchen accessories</option>
-              <option value={'furniture'}><Link to='/Furniture'>furniture</Link></option>
+              <option value={'furniture'}>furniture</option>
               <option value={'art'}>art</option>
               <option value={'furnishings'}>furnishings</option>
               <option value={'lighting'}>lighting</option>
