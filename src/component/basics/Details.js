@@ -24,7 +24,7 @@ const Details = () => {
                       <li id='Link'>GET QUOTE</li>
                   </ul>
               )}
-               <button className="btnNav" onClick={toggleNav}><FontAwesomeIcon icon={faAlignJustify} id='fontAwe' /></button>
+               <button className="btnNav" onClick={toggleNav}><FontAwesomeIcon icon={faAlignJustify} id='fontAwe'/></button>
             </div>
         <div className="navbarDet">
             <img src="p2_assets/logo.png" className="logo" alt='img'/>

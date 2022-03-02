@@ -1,7 +1,9 @@
 import React from 'react'
+
 import '../basics/detailspTwo.css'
 
 const DetailspTwo = () => {
+   
   return (
     <>
     <div id='detp2h2'>

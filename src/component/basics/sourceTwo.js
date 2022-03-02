@@ -1,28 +1,46 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link, useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faSortDown} from '@fortawesome/free-solid-svg-icons';
+
 
 import  '../basics/sourceTwo.css';
+import { useState } from 'react';
 const SourceTwo = () => {
+    let navigate = useNavigate();
+    const routeChange= ()=>{
+        let path = '/Furniture';
+        navigate(path);
+    }
+    const [toggleMenu,setToggleMenu]=useState(false)
+  
+    const toggleNav = () =>{
+      setToggleMenu(!toggleMenu)
+    }
   return <div>
-        <div className='dropDown'>
-          <select className='select'>
-              <option disabled selected>ALL PRODUCTS</option>
-              <option value={'kitchen accessories'}>kitchen accessories</option>
-              <option value={'furniture'}>furniture</option>
-              <option value={'art'}>art</option>
-              <option value={'furnishings'}>furnishings</option>
-              <option value={'lighting'}>lighting</option>
-              <option value={'Decor accessories'}>Decor accessories</option>
-              <option value={'wall coverings'}>wall coverings</option>
-              <option value={'security and safety'}>security and safety</option>
-              <option value={'gardening'}>gardening</option>
-              <option value={'kids furniture'}>kids furniture</option>
-              <option value={'Stores&Selves'}>Stores&Selves</option>
-
-          </select>
-      </div>
+        
+      
       
       <div className="S2_page2">
+      <div className='dropDowndet'>
+            <button className='viewdetBtn' onClick={toggleNav}>VIEW DETAILS <FontAwesomeIcon icon={faSortDown} id='fontSortdown' /></button>
+            {toggleMenu &&(
+            <ul>
+                <li><Link to='/Furniture' id='listDet'>kitchen accessories</Link></li>
+                <li> <Link to='/Furniture'id='listDet'>furniture</Link></li>
+                <li><Link to='/Furniture'id='listDet'>art</Link></li>
+                <li><Link to='/Furniture'id='listDet'>furnishings</Link></li>
+                <li><Link to='/Furniture'id='listDet'>lighting</Link></li>
+                <li><Link to='/Furniture'id='listDet'>Decor accessories</Link></li>
+                <li><Link to='/Furniture'id='listDet'>wall coverings</Link></li>
+                <li><Link to='/Furniture'id='listDet'>security and safety</Link></li>
+                <li><Link to='/Furniture'id='listDet'>gardening</Link></li>
+                <li><Link to='/Furniture'id='listDet'>kids furniture</Link></li>
+                <li><Link to='/Furniture'id='listDet'>Stores&Selves</Link></li>
+            </ul>
+            )}
+            
+      </div>
     
         <div className="S2_left">
             <ul>
@@ -40,6 +58,7 @@ const SourceTwo = () => {
             </ul>
         </div>
         <div className="cards">
+ 
             <div className="S2_card">
 
                 <img src="p2_assets/img1.png" className="card_image" alt='img'/>
@@ -54,7 +73,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button id='detBtn'>VIEW DETAILS</button>
+                        <button id='detBtn' onClick={routeChange}>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -72,7 +91,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button id='detBtn'>VIEW DETAILS</button>
+                        <button id='detBtn' onClick={routeChange} >VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -90,7 +109,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button id='detBtn'>VIEW DETAILS</button>
+                        <button id='detBtn'  onClick={routeChange}>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -108,7 +127,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button id='detBtn'>VIEW DETAILS</button>
+                        <button id='detBtn'  onClick={routeChange}>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -126,7 +145,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button id='detBtn'>VIEW DETAILS</button>
+                        <button id='detBtn' onClick={routeChange}>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -144,7 +163,7 @@ const SourceTwo = () => {
                         <p>Rs. <del>21,150</del> <b>14,999</b></p>
                     </div>
                     <div>
-                        <button id='detBtn'>VIEW DETAILS</button>
+                        <button id='detBtn' onClick={routeChange}>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>

@@ -146,14 +146,23 @@ ul {
     }
     .main_2 .navbar .mobNav .mobList{
         position: fixed;
-        top: 60px;
+        top: 0;
         left: 0;
         height: fit-content;
         z-index: 10;
         padding: 100px 0 0 40px;
-        background: #fdfdfd;
+        background: #F1F1F2;
         width: 100%;
         height: 100%;
+    }
+    .main_2 .navbar .mobNav .mobList .btnnavCross{
+        border: none;
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        font-size: 40px;
+
     }
     .main_2 .navbar .mobNav .btnNav{
         display: block;

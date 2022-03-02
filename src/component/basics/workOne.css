@@ -142,20 +142,31 @@ header .workNavbar .workNavlinks #workLinksnav{
     }
     header .workNavbar .mobNav .mobList{
         position: fixed;
-        top: 60px;
+        top: 0;
         left: 0;
         height: 100vh;
-
         background: #141E1F;
         padding: 100px 0 0 40px;
          z-index: 10;
         width: 100%;
+    }
+    header .workNavbar .mobNav .mobList .btnnavCross{
+        border: none;
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 22px;
+        font-size: 40px;
+        background: transparent;
+        color: white;
     }
     header .workNavbar .mobNav .btnNav{
         display: block;
         position: absolute;
         right: 30px;
         top: 22px;
+        background: transparent;
+        color: white;
         border: none;
 }
 header .workNavbar .mobNav .btnNav #fontAwe{
@@ -211,7 +222,7 @@ justify-content: center;
 }
 @media only screen and (max-width: 500px){
     header{
-        background-size: 300px;
+        background-size: 300px 370px;
 
     }
 }

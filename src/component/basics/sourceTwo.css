@@ -107,7 +107,57 @@
     text-decoration: none;
     color: #222222;
 }
+.dropDowndet{
+    display: none;
+}
 @media only screen and (max-width: 900px){
+    .S2_page2{
+        display: block;
+        background-color: #E5E5E5;
+    }
+    .S2_page2 .dropDowndet .viewdetBtn{
+        border: none;
+        font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+align-items: center;
+text-transform: uppercase;
+
+color: #222222;
+background: #FFFFFF;
+padding: 11px 21px;
+margin: 13px 0 0 20px;
+}
+.S2_page2 .dropDowndet .viewdetBtn #fontSortdown{
+    font-size: 15px;
+    margin: 0 0 2px 10px;
+}
+.S2_page2 .dropDowndet ul{
+margin-left: 20px;
+    width: 100%;
+}
+ .S2_page2 .dropDowndet ul #listDet{
+     text-decoration: none;
+     cursor: pointer;
+     text-align: center;
+ font-family: Poppins;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 30px;
+ color: #1A3D34;
+ } 
+ .S2_page2 .dropDowndet ul #listDet:hover {
+    background: #EDF1F7;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: -3px 0 #57C2A7;
+}
+    .dropDowndet{
+        display: block;
+    }
     .S2_left{
         display: none;
     }
