@@ -14,8 +14,8 @@
     background-color: #F1F1F2;
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right -132px;
-    background-size: 1027px;
+    background-position: bottom right -60px;
+    background-size: 80% 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
