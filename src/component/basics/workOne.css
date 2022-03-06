@@ -98,6 +98,9 @@ header .workNavbar .workNavlinks #workLinksnav{
     text-decoration: none;
     color: white;
 }
+header .workNavbar .workNavlinks .borderBottom{
+    border-bottom: 4px solid #32D3A9;
+}
 @media only screen and (max-width: 1200px){
     header{
         background-size: 670px;
@@ -185,6 +188,9 @@ font-size: 16px;
 line-height: 24px;
 color: #1A3D34;
 
+}
+header .workNavbar .mobNav .mobList .borderBottom{
+    border-bottom: 4px solid #32D3A9;
 }
 header .workNavbar .mobNav .mobList #Link{
     text-decoration: none;

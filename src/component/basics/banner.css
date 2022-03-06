@@ -69,6 +69,13 @@ ul {
 .nav-links li #Link {
     text-decoration: none;
     color: #1A3D34;
+   
+}
+.nav-links li .borderBottom{
+    border-bottom: 4px solid #32d3a9;
+}
+.main .navbar .mobNav .mobList .borderBottom{
+    border-bottom: 4px solid #32d3a9;
 }
 .main .navbar .mobNav .mobList #Link{
     text-decoration: none;
@@ -238,6 +245,6 @@ color: #1A3D34;
         height: 90px;
      }
      .main{
-         background-size: 450px ;
+         background-size: 600px ;
      }
 }

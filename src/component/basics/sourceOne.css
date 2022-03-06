@@ -41,6 +41,9 @@ ul {
     text-decoration: none;
     color: #1A3D34;
 }
+.main_2 .navbar .navLinksone .borderBottom{
+    border-bottom: 4px solid #32D3A9;
+}
 
 .navLinksone li {
     margin: 0 40px;
@@ -184,6 +187,9 @@ font-size: 16px;
 line-height: 24px;
 color: #1A3D34;
 
+}
+.main_2 .navbar .mobNav .mobList li .borderBottom{
+    border-bottom: 4px solid #32D3A9;
 }
 .main_2 .navbar .mobNav .mobList #Link{
     text-decoration: none;

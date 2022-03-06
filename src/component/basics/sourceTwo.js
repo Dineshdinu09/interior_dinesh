@@ -26,17 +26,17 @@ const SourceTwo = () => {
             <button className='viewdetBtn' onClick={toggleNav}>VIEW DETAILS <FontAwesomeIcon icon={faSortDown} id='fontSortdown' /></button>
             {toggleMenu &&(
             <ul>
-                <li><Link to='/Furniture' id='listDet'>kitchen accessories</Link></li>
-                <li> <Link to='/Furniture'id='listDet'>furniture</Link></li>
-                <li><Link to='/Furniture'id='listDet'>art</Link></li>
-                <li><Link to='/Furniture'id='listDet'>furnishings</Link></li>
-                <li><Link to='/Furniture'id='listDet'>lighting</Link></li>
-                <li><Link to='/Furniture'id='listDet'>Decor accessories</Link></li>
-                <li><Link to='/Furniture'id='listDet'>wall coverings</Link></li>
-                <li><Link to='/Furniture'id='listDet'>security and safety</Link></li>
-                <li><Link to='/Furniture'id='listDet'>gardening</Link></li>
-                <li><Link to='/Furniture'id='listDet'>kids furniture</Link></li>
-                <li><Link to='/Furniture'id='listDet'>Stores&Selves</Link></li>
+                <li><Link to='' id='listDet'>kitchen accessories</Link></li>
+                <li> <Link to=''id='listDet'>furniture</Link></li>
+                <li><Link to=''id='listDet'>art</Link></li>
+                <li><Link to=''id='listDet'>furnishings</Link></li>
+                <li><Link to=''id='listDet'>lighting</Link></li>
+                <li><Link to=''id='listDet'>Decor accessories</Link></li>
+                <li><Link to=''id='listDet'>wall coverings</Link></li>
+                <li><Link to=''id='listDet'>security and safety</Link></li>
+                <li><Link to=''id='listDet'>gardening</Link></li>
+                <li><Link to=''id='listDet'>kids furniture</Link></li>
+                <li><Link to=''id='listDet'>Stores&Selves</Link></li>
             </ul>
             )}
             
@@ -44,17 +44,17 @@ const SourceTwo = () => {
     
         <div className="S2_left">
             <ul>
-                <li><Link to='/Furniture' id='listDet'>kitchen accessories</Link></li>
-                <li> <Link to='/Furniture'id='listDet'>furniture</Link></li>
-                <li><Link to='/Furniture'id='listDet'>art</Link></li>
-                <li><Link to='/Furniture'id='listDet'>furnishings</Link></li>
-                <li><Link to='/Furniture'id='listDet'>lighting</Link></li>
-                <li><Link to='/Furniture'id='listDet'>Decor accessories</Link></li>
-                <li><Link to='/Furniture'id='listDet'>wall coverings</Link></li>
-                <li><Link to='/Furniture'id='listDet'>security and safety</Link></li>
-                <li><Link to='/Furniture'id='listDet'>gardening</Link></li>
-                <li><Link to='/Furniture'id='listDet'>kids furniture</Link></li>
-                <li><Link to='/Furniture'id='listDet'>Stores&Selves</Link></li>
+                <li><Link to='' id='listDet'>kitchen accessories</Link></li>
+                <li> <Link to=''id='listDet'>furniture</Link></li>
+                <li><Link to=''id='listDet'>art</Link></li>
+                <li><Link to=''id='listDet'>furnishings</Link></li>
+                <li><Link to=''id='listDet'>lighting</Link></li>
+                <li><Link to=''id='listDet'>Decor accessories</Link></li>
+                <li><Link to=''id='listDet'>wall coverings</Link></li>
+                <li><Link to=''id='listDet'>security and safety</Link></li>
+                <li><Link to=''id='listDet'>gardening</Link></li>
+                <li><Link to=''id='listDet'>kids furniture</Link></li>
+                <li><Link to=''id='listDet'>Stores&Selves</Link></li>
             </ul>
         </div>
         <div className="cards">

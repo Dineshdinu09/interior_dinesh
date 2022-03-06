@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import '../basics/Details.css'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faAlignJustify} from '@fortawesome/free-solid-svg-icons';
 
@@ -11,6 +11,11 @@ const Details = () => {
   const toggleNav = () =>{
     setToggleMenu(!toggleMenu)
   }
+  let navigate = useNavigate();
+  const redirectContact= ()=>{
+      let path = '/Contactpage';
+      navigate(path);
+  }
   return (
     
     <div className='DetailsPage'>
@@ -19,7 +24,7 @@ const Details = () => {
               {toggleMenu &&(
                   <ul className="mobList">
                       <li><Link to="/" id='Link'>SERVICES</Link></li>
-                      <li><Link to="/Products" id='Link'>PRODUCTS</Link></li>
+                      <li><Link to="/Products" id='Link' className='borderBottom'>PRODUCTS</Link></li>
                       <li><Link to='/Work' id='Link'>WORK</Link></li>
                       <li id='Link'>GET QUOTE</li>
                   </ul>
@@ -30,9 +35,9 @@ const Details = () => {
             <img src="p2_assets/logo.png" className="logo" alt='img'/>
             <ul className="navinksDet">
                 <li><Link to="/" id='detLinktwo'>SERVICES</Link></li>
-                <li><Link to="/Products" id='detLinktwo'>PRODUCTS</Link></li>
+                <li><Link to="/Products" id='detLinktwo' className='borderBottom'>PRODUCTS</Link></li>
                 <li><Link to="/Work" id='detLinktwo'>WORK</Link></li>
-                <button type="button" className="button1">GET QUOTE</button>
+                <button type="button" className="button1" onClick={redirectContact}>GET QUOTE</button>
             </ul>
         </div>
         </nav>

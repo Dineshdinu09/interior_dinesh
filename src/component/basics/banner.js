@@ -32,7 +32,7 @@ const Banner = () => {
 
                  <ul className="mobList">
                    <button onClick={toggleNav} className="btnnavCross"><FontAwesomeIcon icon={faXmark} id='fontAwes' /></button>
-                      <li><NavLink to="/" id='Link'>SERVICES</NavLink></li>
+                      <li><NavLink to="/" id='Link' className="borderBottom">SERVICES</NavLink></li>
                       <li><NavLink to="/Products" id='Link'>PRODUCTS</NavLink></li>
                       <li><Link to='/Work' id='Link'>WORK</Link></li>
                       <li><Link to='/contactPage' id='Link'>GET QUOTE</Link></li>
@@ -47,7 +47,7 @@ const Banner = () => {
 
             <ul className="nav-links">
 
-                <li ><Link to="/" id='Link'>SERVICES</Link></li>
+                <li ><Link to="/" id='Link'className='borderBottom'>SERVICES</Link></li>
                 <li><NavLink to="/Products" id='Link'>PRODUCTS</NavLink></li>
                 <li><Link to='/Work' id='Link'>WORK</Link></li>
                 <button type="button" className="button1" onClick={routeContact}>GET QUOTE</button>
