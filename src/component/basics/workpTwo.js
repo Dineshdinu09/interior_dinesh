@@ -20,6 +20,7 @@ const WorkpTwo = () => {
   <li>Space Saving</li>
 </ul>
   </div>
+  <div className='allCards'>
        <div className='workContainer'>
          <div className='workImage1'>
          <img src='p4_assets/Frame494.png' className='workImg1' alt='img'></img>
@@ -87,6 +88,7 @@ const WorkpTwo = () => {
 
             </div>
 
+       </div>
        </div>
        
         

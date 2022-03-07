@@ -32,7 +32,7 @@
 
 .lblock {
     width: 28%;
-    height: 558px;
+    height: 610px;
     /* border: 2px solid yellow; */
     background: #1A3D34;
     overflow: hidden;
@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
     width: 55%;
-    height: 558px;
+    height: 610px;
     background: white;
     justify-content: space-between;
     padding: 40px 40px 40px 40px;
