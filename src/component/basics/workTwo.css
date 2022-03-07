@@ -1,9 +1,14 @@
+body{
+    background: #f1f1f2;
+}
 .workGrids{
     margin:  50px;
     padding: 10px 10px;
+   
+    
 }
 .workGrids .workNavbar2 {
-    padding: 50px 35px;
+    padding: 50px 10px;
 }
 .workGrids .workNavbar2 .workNavul{
     list-style: none;
@@ -212,6 +217,48 @@ height: 20px;
 @media screen and (max-device-width: 1000px){
     .workGrids .workNavbar2{
         display: none;
+    }
+
+
+    /* DROPDOWN */
+    .workGrids .dropDowndet .viewdetBtn{
+        border: none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        align-items: center;
+        text-transform: uppercase;
+        color: #222222;
+        background:#ffffff;
+        padding: 11px 21px;
+        margin: 0 0 15px 0;
+}
+.workGrids .dropDowndet .viewdetBtn #fontSortdown{
+    font-size: 15px;
+    margin: 0 0 2px 10px;
+}
+.workGrids .dropDowndet ul{
+    margin-left: 20px;
+        width: 100%;
+    }
+     .workGrids .dropDowndet ul #listDet{
+         text-decoration: none;
+         cursor: pointer;
+         text-align: center;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 30px;
+     color: #1A3D34;
+     } 
+     .workGrids .dropDowndet ul #listDet:hover {
+        background: #EDF1F7;
+        cursor: pointer;
+        padding: 5px;
+        box-shadow: -3px 0 #57C2A7;
     }
     .workContainer .workTitleh1{
         margin-bottom: 25px;

@@ -1,12 +1,38 @@
-import React from 'react'
+import React,{useState} from 'react'
 import  '../basics/workTwo.css';
+import { Link} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faSortDown} from '@fortawesome/free-solid-svg-icons';
 
 const WorkpTwo = () => {
-  return (
+  const [toggleMenu,setToggleMenu]=useState(false)
+  
+  const toggleNav = () =>{
+    setToggleMenu(!toggleMenu)
+  }
+  return (<div className='pageWorkgrid'>
 <div className='workGrids'>
    
   
-
+<div className='dropDowndet'>
+            <button className='viewdetBtn' onClick={toggleNav}>VIEW DETAILS <FontAwesomeIcon icon={faSortDown} id='fontSortdown' /></button>
+            {toggleMenu &&(
+            <ul>
+                <li><Link to='' id='listDet'>kitchen accessories</Link></li>
+                <li> <Link to=''id='listDet'>furniture</Link></li>
+                <li><Link to=''id='listDet'>art</Link></li>
+                <li><Link to=''id='listDet'>furnishings</Link></li>
+                <li><Link to=''id='listDet'>lighting</Link></li>
+                <li><Link to=''id='listDet'>Decor accessories</Link></li>
+                <li><Link to=''id='listDet'>wall coverings</Link></li>
+                <li><Link to=''id='listDet'>security and safety</Link></li>
+                <li><Link to=''id='listDet'>gardening</Link></li>
+                <li><Link to=''id='listDet'>kids furniture</Link></li>
+                <li><Link to=''id='listDet'>Stores&Selves</Link></li>
+            </ul>
+            )}
+            
+      </div>
 
 <div className='workNavbar2'>
   <ul className='workNavul'>
@@ -93,6 +119,7 @@ const WorkpTwo = () => {
        
         
 
+    </div>
     </div>
   )
 }
